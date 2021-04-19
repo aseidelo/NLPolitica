@@ -10,6 +10,8 @@ Pacote para análise de citações de termos nas atas e descrições.
 
 - Recupera projetos e falas nas atas indiretamente relacionados às citações (contidas nas mesmas discussões)
 
+- Gera estatisticas sobre projetos, partidos e politicos a partir dos dataframes de projetos e atas filtrados
+
 ## Usage
 
-Todas as funções estão explicadas em notebooks/corruption_citations.ipynb
+Todas as funções estão explicadas em ```notebooks/corruption_citations.ipynb```
