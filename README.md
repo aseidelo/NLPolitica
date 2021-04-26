@@ -1,17 +1,17 @@
-# NLPolitica: Pacote de análise de citações 
+# NLPolitica: Citation analysis package
 
-Pacote para análise de citações de termos nas atas e descrições.
+Tools for citation analysis in portuguese parliament minutes and project descriptions
 
-- Recupera atas de um período selecionado;
+- Retrieve minutes from a specific period;
 
-- Define tema das falas (DEPRECATED - será em pacote separado)
+- Define subject of each minutes speech (DEPRECATED - moved to another package);
 
-- Recupera projetos e falas nas atas com citações diretas
+- Retrieve projects and speeches with direct citations to list of terms;
 
-- Recupera projetos e falas nas atas indiretamente relacionados às citações (contidas nas mesmas discussões)
+- Retrieve projects and speeches indirectly related to the citations (on the same discussions);
 
-- Gera estatisticas sobre projetos, partidos e politicos a partir dos dataframes de projetos e atas filtrados
+- Generate statistics about projects, parties and politicians from project and minute dataframes.
 
 ## Usage
 
-Todas as funções estão explicadas em ```notebooks/corruption_citations.ipynb```
+Examples for all functions are shown in ```notebooks/corruption_citations.ipynb```
