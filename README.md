@@ -2,7 +2,7 @@
 
 NLP applied for augmented democracy in Portugal's parliament activity.
 
-We process the minutes of the *portuguese official Journal of the Republic*, which includes all the information produced and exchanged in the parliamentarian sessions, in order to:
+We process the minutes of the **portuguese official Journal of the Republic**, which includes all the information produced and exchanged in the parliamentarian sessions, in order to:
  
  1 - analyze and make sense of massive and complex amounts of data produced in the legislative body;
 
