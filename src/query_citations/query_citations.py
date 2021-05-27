@@ -38,12 +38,8 @@ def set_subject(dialogs):
         lower_text = text.lower()
         # search for presidents speeches
         if name == 'Presidente':
-            # search 'declaraç' extracts on the speech
-            if('declaraç' in lower_text):
-                last_subject = 'declarações políticas {}'.format(j)
-                j = j + 1            
             # search 'projeto de' to define the subject after political declarations (subject is defined as the name of the project in that case)
-            elif ('projeto de ' in lower_text and '/' in lower_text):
+            if ('projeto de ' in lower_text and '/' in lower_text):
                 # search all repetitions of 'projeto de'
                 positions = [m.start() for m in re.finditer('Projeto de', text)]
                 last_subject = ''
@@ -56,6 +52,10 @@ def set_subject(dialogs):
                         last_subject = text[position:text.find('/', position)+4].replace('n.º ', '')
                     last_subject = last_subject + ', ' + text[position:text.find('/', position)+4].replace('n.º ', '')
                     k = k + 1
+            # search 'declaraç' extracts on the speech
+            elif('declaraç' in lower_text):
+                last_subject = 'declarações políticas {}'.format(j)
+                j = j + 1
         subjects.append(last_subject)
     dialogs['Subject'] = subjects
     #dialogs.to_csv('atas_com_subject.csv')
