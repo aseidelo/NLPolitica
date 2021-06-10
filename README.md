@@ -1,3 +1,8 @@
+![](https://img.shields.io/github/languages/top/aseidelo/NLPolitica)
+![](https://img.shields.io/github/languages/code-size/aseidelo/NLPolitica)
+![](https://img.shields.io/apm/l/vim-mode)
+
+
 # NLPolitica
 
 NLP applied for augmented democracy in Portugal's parliament activity.
